@@ -19,7 +19,7 @@ Working examples can be found in [Sample Implementations](http://prebid.org/dev-
 ## Plugin Partners
 A successful deployment of this plugin not only includes a build of this plugin but the inclusion of other components that are also provided in this repository and a companion repository.  These partners include:
 - **MailOnline plugin** - by default this plugin uses a customized build of the public MailOnline plugin to render the video ad. 
--- This rendering plugin is availabe from: `https://github.com/prebid/videojs-mailonline-plugin.git`.  
+-- This rendering plugin is availabe from: `https://github.com/aclrys/videojs-mailonline-plugin.git`.  
 -- You may use the MailOnline plugin as is or you may create your own build.  
 -- Alternatively, you may also partner the prebid plugin with your own rendering code.  Details about how to do this is provided below under HOW TO BUILD AND RUN PROJECT LOCALLY.
 - **MailOnline CSS** - If you are using the MailOnline rendering plugin, you also need to load the CSS file associated with the MailOnline plugin.  This CSS file is provided in the companion MailOnline repository mentioned above at the following location: `./videojs-mailonline-plugin/bin/bc_vpaid_vast_mo.css`.
@@ -32,7 +32,7 @@ A successful deployment of this plugin not only includes a build of this plugin 
 
 ## Install
 
-    $ git clone https://github.com/prebid/prebid-js-plugin-brightcove.git
+    $ git clone https://github.com/aclrys/prebid-js-plugin-brightcove.git
     $ cd prebid-js-plugin-brightcove
     $ npm install
 
@@ -188,9 +188,9 @@ Make sure the following paths are correct:
 
 SSPs and publishers may contributed to this project. 
 
-For guidelines, see [Contributing](https://github.com/prebid/prebid-js-plugin-brightcove/tree/master/CONTRIBUTING.md).
+For guidelines, see [Contributing](https://github.com/aclrys/prebid-js-plugin-brightcove/tree/master/CONTRIBUTING.md).
 
-Our PR review process can be found [here](https://github.com/prebid/prebid-js-plugin-brightcove/tree/master/PR_REVIEW.md). 
+Our PR review process can be found [here](https://github.com/aclrys/prebid-js-plugin-brightcove/tree/master/PR_REVIEW.md). 
 
 ### Code Quality
 
@@ -224,4 +224,4 @@ The results will be in
 bc_prebid_vast is supported on IE11+ and modern browsers.
 
 ### Governance 
-Review our governance model [here](https://github.com/prebid/prebid-js-plugin-brightcove/tree/master/governance.md).
+Review our governance model [here](https://github.com/aclrys/prebid-js-plugin-brightcove/tree/master/governance.md).
